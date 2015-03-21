@@ -1,0 +1,107 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- Very important view port -->
+
+<title>Responsive email template</title>
+<style type="text/css">
+/* Generic Styling */
+body {
+  background-color: #ffffff; 
+  -webkit-font-smoothing: antialiased;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+	width: 100%;
+
+}
+
+/* Table border collapse for smaller device views */
+table tr, td{
+	border-collapse: collapse;
+}
+/* Tablet(portrait) and Mobile(landscape)----------- */
+@media only screen and (max-width : 640px){
+  /*styles*/
+   body[yahoo] .appWidth{
+    width: 480px!important;
+    padding: 0;
+   }
+   body[yahoo] .center {
+  text-align: center!important;
+   width:100%;
+ }
+
+}
+.page-border{padding:20px!important;}
+
+/* Mobile(portrait)----------- */
+@media only screen and (max-width : 479px){
+  /*styles*/
+   body[yahoo] .appWidth{
+    width: 320px!important; 
+    padding: 0;
+  }
+  body[yahoo] .center {
+  text-align: center!important;
+   width:100%;
+}
+}
+
+</style>
+</head>
+
+<!-- BODY TAG WITH BACKGROUND COLOR AND FONT-FAMILY -->
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#cccccc" yahoo="fix" style="background-color:#cccccc; background:#cccccc; font-family: Helvetica Heue, sans-serif;">
+
+<!-- START PAGE WRAPPER -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr>
+    <td width="100%" valign="top">
+    <!-- START PAGE BORDER -->
+      <table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="border:1px solid #999999;" class="appWidth">
+        <tr>
+        <td style="background-color:#ffffff;" width="3%" >&nbsp;</td>
+         <!-- START CONTENT -->
+         <td align="center" class="appWidth" style="padding-top:60px; padding-bottom:60px;" valign="top" width="94%" >
+        <!-- START Brand Information (one table two columns) -->
+
+             <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="appeWidth">
+              <tr>
+                <td>
+
+                  <!-- START Brand LOGO (one column of two) -->
+                  <table border="0" cellpadding="0" cellspacing="0" align="left" class="center">
+                    <tr>
+                      <td valign="top"><a href="http:www.angelahatchman.com" target="_blank">
+                        <img src="../img/imailgenie-logo.png" valign="top" alt="" border="0" /></a></td>
+                    </tr>
+                  </table>
+                  <!-- END LOGO -->
+
+                  <!-- START right Information (two column of two) -->
+                  <table border="0" cellpadding="0" cellspacing="0" align="right" class="center">
+                    <tr>
+                      <td style="color:#ffffff; font-family: Helvetica Heue, sans-serif; font-size:12px; padding-right:10px">Time / date</td>
+                    </tr>
+                  </table>
+                  <!-- END RIGHT INFORMATION -->
+                  </td>
+              </tr>
+            </table>
+
+            <!-- END Brand Information -->  
+       
+        </td> 
+        <!-- END PAGE CONTENT -->
+        <td style="background-color:#ffffff;" width="3%">&nbsp;</td>
+        </tr>
+      </table>
+      <!-- END PAGE BORDER --></td> 
+  </tr>
+</table>
+<!-- END PAGE WRAPPER -->
+</body>
+<!-- END BODY TAG -->
+</html>
