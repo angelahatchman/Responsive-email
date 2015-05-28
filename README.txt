@@ -1,4 +1,4 @@
-Building a responsive email
+Building a responsive email - for fun
 
 This is responsive email, using @media queries.
 
